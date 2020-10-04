@@ -1,0 +1,83 @@
+{
+  "!type": "Form",
+  "HTML": null,
+  "attributes": "",
+  "background": "",
+  "backgroundimage": "",
+  "borderColor": "",
+  "borderStyle": "",
+  "borderWidth": "",
+  "cached_js": null,
+  "cached_js_script_hash": null,
+  "children": [
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "CarPayment",
+        "Elements",
+        "lblAnswer.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "CarPayment",
+        "Elements",
+        "btnCalculate.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "CarPayment",
+        "Elements",
+        "inptPrinciple.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "CarPayment",
+        "Elements",
+        "inptMonthlyInterest.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "CarPayment",
+        "Elements",
+        "inptTotalMonths.json"
+      ]
+    }
+  ],
+  "class": "",
+  "designHeight": 460,
+  "designWidth": 320,
+  "expanded_pmp": null,
+  "fullScreen": "true",
+  "height": 460,
+  "id": "CarPayment",
+  "language": "JavaScript",
+  "left": "0",
+  "locked": false,
+  "modal": "false",
+  "onhide": "",
+  "onkeypress": "",
+  "onresize": "",
+  "onshow": "",
+  "openMode": "none",
+  "parentForm": "",
+  "position": "absolute",
+  "script": null,
+  "setFocusID": "",
+  "style": "",
+  "theme": "",
+  "top": "0",
+  "width": 320
+}
