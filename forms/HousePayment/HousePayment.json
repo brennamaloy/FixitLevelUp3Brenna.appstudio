@@ -16,7 +16,7 @@
         "forms",
         "HousePayment",
         "Elements",
-        "lblanswer1.json"
+        "lblAnswer1.json"
       ]
     },
     {
@@ -75,7 +75,7 @@
   "language": "JavaScript",
   "left": "0",
   "locked": false,
-  "modal": "false",
+  "modal": "true",
   "onhide": "",
   "onkeypress": "",
   "onresize": "",
