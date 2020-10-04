@@ -3,7 +3,7 @@ function carLoanPayment(p, r, n) {
 }
  
 
-btnCalculate.onclick=function carLoanpayment() {
+btnCalculate.onclick=function calcCarLoanPayment() {
   let principleValue = inptPrinciple.value
   let monthlyInterest = inptMonthlyInterest.value
   let totalMonths = inptTotalMonths.value
