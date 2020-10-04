@@ -9,7 +9,7 @@ function houseLoanPayment30(p,r) {
 btn15years.onclick=function calcHouseLoanPayment15(){
   let principleValue = inptPrinciple1.value
   let monthlyInterest = inptMonthlyInterest1.value
-  let housePayment15 =  houseLoanPayment15(Number(principleValue),Number(monthlyInterest))
+  let housePayment15 =  houseLoanPayment15(Number(principleValue),Number(monthlyInterest)/100)
   lblAnswer1.hidden = false
   lblAnswer1.textContent = ("A home loan for $ " + principleValue + " over 15 years at " + monthlyInterest +
   " % would have a monthly payment of $ " + housePayment15)
@@ -19,7 +19,7 @@ btn15years.onclick=function calcHouseLoanPayment15(){
 btn30years.onclick=function calcHouseLoanPayment30(){
   let principleValue = inptPrinciple1.value
   let monthlyInterest = inptMonthlyInterest1.value
-  let housePayment30 =  houseLoanPayment30(Number(principleValue),Number(monthlyInterest))
+  let housePayment30 =  houseLoanPayment30(Number(principleValue),Number(monthlyInterest)/100)
   lblAnswer1.hidden = false
   lblAnswer1.textContent = ("A home loan for $ " + principleValue + " over 30 years at " + monthlyInterest +
   " % would have a monthly payment of $ " + housePayment30)
