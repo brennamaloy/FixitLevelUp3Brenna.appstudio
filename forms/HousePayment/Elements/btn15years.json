@@ -35,7 +35,7 @@
   "mLeft": "",
   "mRight": "",
   "mTop": "",
-  "onclick": "",
+  "onclick": "btn15years.onclick()",
   "onmousedown": "",
   "onmousemove": "",
   "onmouseout": "",
